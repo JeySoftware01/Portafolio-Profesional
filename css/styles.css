@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+body {
+    background: -webkit-linear-gradient(to left, #5959db,  #1CB5E0);
+    background: linear-gradient(to left, #5959db, #1CB5E0); 
+	font-family: Arial, sans-serif;
+	font-size: 1rem;
+    line-height: 1.5;
+}
+header{
+	background-color: #000000;
+	color: #ffffff;
+	padding: 20px;
+}
+section {
+	padding: 60px;
+}
+.Proyecta { 
+    width: 150px;
+    height: 90px;
+}
+.Proyectw { 
+    width: 600px;
+    height: 300px;
+}
+.Titu{
+    color: #ffffff;
+    padding: 20px;
+    font-size: 1rem;
+}
+.text{
+    width: 40%;
+    font-size: 1rem;
+}
+/*:::::Pie de Pagina*/
+.pie-pagina{
+    width: 100%;
+    background-color: #000000;
+}
+.pie-pagina .grupo-1{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap:50px;
+    padding: 40px 0px;
+}
+.pie-pagina .grupo-1 .box figure img{
+    border-radius: 50%;
+    width: 290px;
+}
+.pie-pagina .grupo-1 .box h2{
+    color: #ffffff;
+    margin-bottom: 25px;
+    font-size: 1.5rem;
+}
+.pie-pagina .grupo-1 .box p{
+    color: #fafafa;
+    margin-bottom: 15px;
+    font-size: 1rem;
+}
+.pie-pagina .grupo-1 .red-social a{
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: #fff;
+    margin-right: 10px;
+    background-color: #0f4e8d;
+    text-align: center;
+    transition: all 300ms ease;
+}
+.pie-pagina .grupo-1 .red-social a:hover{
+    color: rgb(0, 255, 34);
+}
+.pie-pagina .grupo-2{
+    background-color: #0f4e8d;
+    padding: 15px 10px;
+    text-align: center;
+    color: #ffffff;
+}
+.pie-pagina .grupo-2 small{
+    font-size: 15px;
+}
+@media screen and (max-width:980px){
+    .pie-pagina .grupo-1 .box p{
+        font-size: 1.5rem;
+        width: 117%;
+        color: rgb(136, 236, 236)
+    }
+    .Form{
+        font-size: 1.7rem;
+    }
+    .Formm{
+        font-size: 1.5rem;
+    }
+    .text{
+        font-size: 0.7rem;
+        width: 100%;
+    }
+    .Titu{
+        font-size: 1.5rem;
+    }
+}
